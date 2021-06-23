@@ -3,10 +3,11 @@
 int main()
 {
 	int c;
-
 	printf("Type a letter: ");
 	c = getchar();
-	printf("You typed '%c'.\n",c);
+	printf("You typed");
+	putchar(c);
+
 
 	return(0);
 }
