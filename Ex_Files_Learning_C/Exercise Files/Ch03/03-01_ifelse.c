@@ -6,6 +6,7 @@ int main()
 
 	printf("Type an integer: ");
 	scanf("%d",&a);
+	
 	if( a > 10 )
     {
         printf("You typed %d.\n",a);

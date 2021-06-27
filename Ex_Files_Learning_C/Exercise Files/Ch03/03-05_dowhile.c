@@ -11,6 +11,7 @@ int main()
 		putchar(ch);
 		ch++;
 	}
+	
 	while( ch != 'Z' );
 
 	putchar('\n');

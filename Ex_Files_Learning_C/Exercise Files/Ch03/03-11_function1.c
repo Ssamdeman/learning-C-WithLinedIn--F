@@ -6,6 +6,7 @@ int main()
 {
 	puts("The main() function always runs first");
 	blorf();
+	
 	puts("Thanks, blorf()");
 
 	return(0);
