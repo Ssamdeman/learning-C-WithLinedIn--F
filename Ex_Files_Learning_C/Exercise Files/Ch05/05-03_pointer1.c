@@ -7,7 +7,7 @@ int main()
 
     a = 1234;
     ptr = &a;
-    b = *ptr;
+    b = &ptr;
 
     printf("A is %d and B is %d\n",a,b);
 

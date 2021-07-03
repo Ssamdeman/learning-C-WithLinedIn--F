@@ -14,8 +14,8 @@ int main()
 
 	for(x=0;x<5;x++)
 	{
-		ptr = presidents[x];
-		while(*ptr != '\0')
+		ptr = *(presidents+x);
+		while(*ptr)
 		{
 			putchar(*ptr);
 			ptr++;

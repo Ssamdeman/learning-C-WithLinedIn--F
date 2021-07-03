@@ -7,6 +7,7 @@ int main()
 	int *aptr;
 
 	aptr = array;		/* no & needed for an array */
+	aptr = aptr+1;
 
 	for(x=0;x<4;x++)
 	{

@@ -7,7 +7,7 @@ int main()
 
 	aptr = array;		
 
-	printf("The element is %d\n",*(aptr+3));
+	printf("The element is %d\n",*(aptr+1));
 
 	return(0);
 }

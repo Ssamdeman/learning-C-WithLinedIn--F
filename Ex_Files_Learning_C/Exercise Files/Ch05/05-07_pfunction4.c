@@ -14,7 +14,7 @@ int main()
 
 char *encrypt(char *input)
 {
-	char output[64];
+	static char output[64];
 	int x = 0;
 
 	while(*input)
@@ -26,7 +26,6 @@ char *encrypt(char *input)
 		x++;
 		input++;
 	}
-
 	return(output);
 }
 
